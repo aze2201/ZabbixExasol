@@ -1,0 +1,1 @@
+/etc/zabbix/ExasolSQLPythonExecute/bin/mainscript.py
