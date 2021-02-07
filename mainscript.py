@@ -1,4 +1,3 @@
-<pre>
 #!/usr/bin/python3.6
 import pyexasol
 import configparser
@@ -52,5 +51,3 @@ C = pyexasol.connect(dsn=connection, user=user, schema=schemaName, password=pass
 result = C.execute(sqlString.read())
 writeFile(result,output)
 
-
-</pre>
